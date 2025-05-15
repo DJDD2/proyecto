@@ -1,0 +1,53 @@
+# Node modules (no se sube a git)
+node_modules/
+
+# Entornos (variables sensibles)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.vscode/
+dist/
+build/
+
+# Directorios de producción
+coverage/
+public/uploads/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de desarrollo
+*.local
+*.swp
+
+# Salidas de excel temporales (si exportas)
+*.xlsx
+
+# Configs de IDE (Visual Studio Code, JetBrains)
+.idea/
+.vscode/
+
+# Archivos de procesos
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Babel, TypeScript
+lib/
+tsconfig.tsbuildinfo
